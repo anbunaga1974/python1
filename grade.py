@@ -1,0 +1,24 @@
+m1=float(input("Enter subject 1 mark:"))
+m2=float(input("Enter subject 2 mark:"))
+m3=float(input("Enter subject 3 mark:"))
+m4=float(input("Enter subject 4 mark:"))
+m5=float(input("Enter subject 5 mark:"))
+aggregate =m1+m2+m3+m4+m5
+percentage =(aggregate/500)*100
+print("Aggregate marks=",aggregate)
+print("Percentage=",percentage,"%")
+if percentage >=90:
+    grade="O"
+elif percentage >=80:
+    grade="A+"
+elif percentage >=70:
+    grade="A"
+elif percentage >=60:
+    grade="B+"
+elif percentage >=55:
+    grade="B"
+elif percentage >=50:
+    grade="C"
+else:
+    grade="Fail"
+print("Grade=",grade)
